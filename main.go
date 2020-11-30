@@ -9,6 +9,7 @@ import (
 
 func main() {
 	handler := func(w http.ResponseWriter, r *http.Request) {
+		// here we use our embedded asset
 		w.Write(image)
 	}
 	mux := http.NewServeMux()
