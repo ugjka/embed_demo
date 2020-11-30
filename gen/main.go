@@ -9,7 +9,7 @@ import (
 	"os/exec"
 )
 
-var template = `package main
+const template = `package main
 
 var image = []byte("%s")
 `
